@@ -1,0 +1,46 @@
+.layout {
+    width: 95%;
+    height: 84vh;
+    margin: auto;
+    margin-top: 40px;
+    overflow-y: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    scrollbar-color: #424242  #202020;
+}
+
+.card {
+    width: 98%;
+    height: 80px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+.item1 {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.dropDown {
+    background-color: #191919;
+    width: 95%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    /* display: none; */
+}
+
+

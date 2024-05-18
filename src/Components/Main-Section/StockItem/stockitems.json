@@ -1,0 +1,72 @@
+[{
+    "id": 1 ,
+    "name" : "AMZN",
+    "viewed": 200,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 20 ,
+    "name" : "NGFS",
+    "viewed": 200,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 2 ,
+    "name" : "ZZZZ",
+    "viewed": 200,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 3 ,
+    "name" : "HMA",
+    "viewed": 350,
+    "trade": "-0.35%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 4 ,
+    "name" : "SAAA",
+    "viewed": 500,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 5 ,
+    "name" : "HSBC",
+    "viewed": 200,
+    "trade": "-0.45%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 6 ,
+    "name" : "YKR",
+    "viewed": 670,
+    "trade": "-0.65%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 7 ,
+    "name" : "SET",
+    "viewed": 931,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+},
+{
+    "id": 8 ,
+    "name" : "BNW",
+    "viewed": 600,
+    "trade": "-0.25%",
+    "risk": "Low Risk"
+
+}]

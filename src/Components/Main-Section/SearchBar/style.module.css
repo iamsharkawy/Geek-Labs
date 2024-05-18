@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+}
+
+label {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+label span{
+    color: #53ACFF;
+}
+
+section input {
+    width: 900px;
+    height: 40px;
+    background-color: rgb(70, 70, 70);
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+section input::placeholder {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    opacity: 1;
+    padding-left: 8px;
+}
+
+section .ring{
+    width: 33px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+

@@ -1,0 +1,224 @@
+.side {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.table {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 500px;
+    height: 95%;
+    margin: 20px;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #171616;
+
+}
+
+.table h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.table label {
+    font-size: 18px;
+    color: #414040;
+}
+
+.table .filterApplied{
+    margin: 20px;
+}
+.filterApplied > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterApplied > div > span {
+    cursor: pointer;
+}
+
+.filterApplied input {
+    background-color: #202020; 
+    width: 98%;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+
+
+/* second part */
+.second {
+    /* width: 91%; */
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #202020;
+    
+}
+
+.second > div {
+    margin: 10px;
+}
+
+.stockField > .stock {
+    display: block;
+    color: white;
+    margin: 10px;
+}
+
+.stockField > input {
+    width: 95%;
+    height: 40px;
+    background-color: #2f2e2e;
+    border-radius: 10px;
+    border: none;
+}
+
+::placeholder {
+    color: #6b6a6a;
+    font-size: 18px;
+    padding: 10px;
+    opacity: 1;
+  }
+
+.indu {
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+}
+.industry {
+    margin: 10px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+.industs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.industs ul {
+    list-style: none;
+    font-weight: lighter;
+}
+
+.industs ul li {
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.industs ul li:hover {
+    background-color: #53ACFF;
+    border-radius: 10%;
+    color: black;
+}
+
+/* radio buttons */
+
+.industryT {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container > .word {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #414040;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  /* .container:hover input ~ .checkmark {
+    background-color: #171616;
+  } */
+  
+  /* When the radio button is checked, add a blue background */
+  /* .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  } */
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #53ACFF;
+  }
+
+
+  button {
+    background-color: #53ACFF;
+    color: white;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+    position: absolute;
+    right: 40%;
+  }
+

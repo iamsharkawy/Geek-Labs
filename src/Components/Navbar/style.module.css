@@ -1,0 +1,151 @@
+nav {
+    background-color: #181818;
+    height: 98vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 10px;
+    width: 100px;
+    transition: width 0.4s;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+/* hover animation */
+nav:hover{
+    width: 250px;
+   
+}
+
+nav:hover .list {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: -50px;
+}
+
+
+nav:hover .logo img {
+    transition: all 0.4s ease-in;
+    transform: scale(2);
+    margin-top: 30px;
+  }
+
+nav:hover::after .logo img {
+    width: 80px;
+    height: 50px;
+}
+
+/* nav:hover .list ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+nav:hover .list ul li a span {
+  display: block;
+  position: absolute;
+  left: 40%;
+  margin-top: -35px;
+}
+
+/* nav .list ul li span:hover {
+  color: #53ACFF;
+} */
+
+nav .list ul li .item:hover {
+  color: #53ACFF;
+}
+
+/* hover-end */
+
+
+nav div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+
+.logo img{
+    margin: 5px;
+    width: 80px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.list ul{
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+.list ul li{
+    list-style: none;
+
+}
+
+.list ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.list ul li a .NavItem{
+    width: 60px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.list ul li a img{
+    width: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.list ul li a span{
+    display: none;
+}
+
+.list ul li .notActive {
+  color: #5D5D5D;
+}
+
+nav .list ul .notActive:hover{
+  
+  
+}
+
+.avatar {
+    padding-left: 60px;
+}
+
+
+nav .list ul li .notActive::after {
+  content: "Coming Soon";
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 120px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+nav .list ul li .notActive:hover::after {
+  opacity: 1;
+}
+
+
+
+
+
+
