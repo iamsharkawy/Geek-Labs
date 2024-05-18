@@ -1,3 +1,10 @@
+# Netlify Project link
+https://st-street.netlify.app/
+
+# Features
+1- search bar filter
+2- Accordion (drop-down)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
